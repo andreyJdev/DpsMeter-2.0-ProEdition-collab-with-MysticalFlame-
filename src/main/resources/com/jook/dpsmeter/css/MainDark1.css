@@ -1,0 +1,259 @@
+.root {
+-fx-background-color: rgb(40,40,40);
+-fx-background-radius: 7;
+}
+
+.button {
+
+    -fx-text-fill: rgb(220,220,220);
+    -fx-body-color: rgb(80,80,80);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-outer-border: rgb(140,140,140);
+    -fx-background-color:-fx-outer-border,-fx-body-color;
+}
+
+.button:hover:pressed{
+    -fx-body-color: rgb(105,105,105);
+}
+
+.button:hover {
+    -fx-body-color: rgb(90,90,90);
+
+
+}
+
+
+.text-area {
+-fx-text-fill: rgb(220,220,220);
+-fx-background-color: rgb(80,80,80);
+}
+
+.text-area .content{
+    -fx-background-color: rgb(80,80,80),
+                linear-gradient(#5c5c5c, #5c5c5c);
+}
+
+.text-field {
+    -fx-text-fill: rgb(220,220,220);
+    -fx-body-color: rgb(80,80,80);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-outer-border: rgb(140,140,140);
+    -fx-background-color:-fx-outer-border,-fx-body-color;
+}
+
+.combo-box .cell{
+-fx-text-fill: rgb(220,220,220);
+}
+
+.combo-box .arrow {
+-fx-background-color: rgb(220,220,220);
+}
+
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color: rgb(80,80,80),
+                    linear-gradient(#5c5c5c, #5c5c5c);
+
+}
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-background-color: rgb(100,100,100),
+        linear-gradient(#828282, #757575);
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected,
+ .combo-box-popup .list-view .list-cell:filled:selected:hover {
+     -fx-background-color: rgb(100,100,100),
+             linear-gradient(#828282, #757575);
+ }
+
+.combo-box-base {
+    -fx-text-fill: rgb(220,220,220);
+    -fx-body-color: rgb(80,80,80);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-outer-border: rgb(140,140,140);
+    -fx-background-color:-fx-outer-border,-fx-body-color;
+}
+
+.combo-box-base:hover {
+    -fx-body-color: rgb(90,90,90);
+}
+
+
+
+.label {
+-fx-text-fill: rgb(220,220,220);
+}
+
+
+
+
+
+
+
+
+/* The increment and decrement button CSS class of scrollbar */
+.text-area .increment-button ,.text-area .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+.text-area .scroll-bar {
+-fx-background-color: rgb(80,80,80),
+                linear-gradient(#757575, #757575);
+}
+
+/* The main scrollbar **track** CSS class */
+.text-area .scroll-bar:horizontal .track,
+.text-area .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.text-area .scroll-bar:horizontal .thumb,
+.text-area .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,50%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+}
+.text-area .scroll-bar > .increment-button > .increment-arrow,
+.text-area .scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: rgb(80,80,80);
+}
+
+
+
+.split-menu-button .label {
+-fx-text-fill: rgb(220,220,220);
+    -fx-background-color: transparent;
+
+}
+
+
+
+.hyperlink {
+    -fx-text-fill: rgb(220,220,220);
+}
+.hyperlink:hover {
+    -fx-text-fill: #42aaff;
+}
+
+.split-menu-button:hover {
+    -fx-outer-border: rgb(90,90,90);
+}
+
+.split-menu-button:hover:pressed{
+
+    -fx-body-color: rgb(105,105,105);
+}
+
+.split-menu-button .arrow-button:hover {
+    -fx-outer-border: rgb(90,90,90);
+}
+
+.split-menu-button .arrow-button .arrow {
+-fx-background-color: rgb(220,220,220);
+}
+
+.split-menu-button {
+    -fx-text-fill: rgb(220,220,220);
+    -fx-body-color: rgb(80,80,80);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-outer-border: rgb(140,140,140);
+    -fx-background-color:-fx-outer-border,-fx-body-color;
+}
+
+.split-menu-button .menu-item {
+-fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgba(80,80,80,0.85);
+
+}
+
+.split-menu-button .menu-item:hover:pressed{
+
+    -fx-body-color: rgb(105,105,105);
+}
+
+.split-menu-button .menu-item:hover{
+
+
+    -fx-background-color: rgba(60,60,60, 0.9);
+
+}
+
+.split-menu-button .arrow-button:hover:pressed{
+    -fx-body-color: rgb(110,110,110);
+}
+
+
+
+.split-menu-button .arrow{
+    -fx-text-fill: rgb(220,220,220);
+    -fx-body-color: rgb(80,80,80);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-outer-border: rgb(140,140,140);
+    -fx-background-color:-fx-outer-border,-fx-body-color;
+}
+.split-menu-button .arrow-button {
+    -fx-text-fill: rgb(220,220,220);
+    -fx-body-color: rgb(80,80,80);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-outer-border: rgb(140,140,140);
+    -fx-background-color:-fx-outer-border,-fx-body-color;
+}
+
+
+
+#hBox: hover {
+    -fx-background-color: rgba(30,30 ,30, 0.6);
+    -fx-background-radius: 5;
+}
+.scroll-pane {
+-fx-background: rgb(80,80,80);
+-fx-background-color:transparent;
+
+}
+
+
+
+
+.scroll-bar {
+-fx-background-color: rgb(80,80,80),
+                linear-gradient(#757575, #757575);
+}
+
+/* The main scrollbar **track** CSS class */
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,50%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+}
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: rgb(80,80,80);
+}
+
+
+
+
+
+
+
+
+

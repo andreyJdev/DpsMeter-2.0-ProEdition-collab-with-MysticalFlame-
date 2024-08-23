@@ -1,0 +1,21 @@
+.button {
+    -fx-focus-color: transparent;
+    -fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgb(50,50,50);
+
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+
+}
+
+.button:hover:pressed{
+
+    -fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgb(80,80,80);
+
+    -fx-background-radius: 0;
+}
+
+.button:hover {
+    -fx-background-color: rgb(100,100,100);
+}

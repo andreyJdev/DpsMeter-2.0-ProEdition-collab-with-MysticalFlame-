@@ -1,0 +1,35 @@
+
+.root {
+     -fx-background-color: rgba(138,102,66,0.25);
+}
+.text-area {
+-fx-focus-color: transparent;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: black;
+}
+
+.menu-item:focused {
+    -fx-background-color: rgba(138,102,66,0.25);
+}
+
+.hyperlink {
+-fx-text-fill: #0000ff
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #b50f04;
+}
+
+#hBox: hover {
+    -fx-background-color: rgba(168,132,96, 0.2);
+    -fx-background-radius: 5;
+}
+
+
+.scroll-pane {
+-fx-background:white;
+-fx-background-color:transparent;
+
+}

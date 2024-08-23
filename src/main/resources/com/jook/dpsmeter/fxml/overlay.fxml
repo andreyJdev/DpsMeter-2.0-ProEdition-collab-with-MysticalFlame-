@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<Group fx:id="group" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+       fx:controller="com.jook.dpsmeter.controllers.OverlayController">
+   <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="#00000056" height="350.0" stroke="BLACK"
+              strokeType="INSIDE" width="290.0"/>
+</Group>

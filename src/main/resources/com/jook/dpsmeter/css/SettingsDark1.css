@@ -1,0 +1,102 @@
+.root {
+-fx-background-radius: 7;
+-fx-background-color: rgb(40, 40, 40);
+
+}
+
+
+/*
+-fx-background-insets: 0, 0 1 1 0;
+-fx-border-radius: 7;
+-fx-border-color: rgb(70,70,70);
+
+
+*/
+
+.label {
+-fx-text-fill: rgb(220,220,220);
+}
+
+.check-box {
+-fx-text-fill: rgb(220,220,220);
+}
+
+.check-box .box{
+-fx-background-color: rgb(80,80,80),
+            linear-gradient(#757575, #757575),
+            transparent;
+        -fx-background-insets: 0,1,2;
+        -fx-background-radius: 3,2,1;
+}
+
+.check-box:selected .mark{
+-fx-background-color: rgb(220,220,220);
+}
+
+
+.toggle-button {
+-fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgb(80,80,80),
+            linear-gradient(#757575, #757575),
+            linear-gradient(#7a7671 0%, #5c5c5c 25%, #424242 40%, #60666b 100%);
+        -fx-background-insets: 0,1,2;
+        -fx-background-radius: 3,2,1;
+}
+
+.button:hover:pressed{
+
+    -fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgb(80,80,80),
+            linear-gradient(#757575, #757575),
+            linear-gradient(#5e5b57 0%, #424242 25%, #424242 40%, #60666b 100%);
+        -fx-background-insets: 0,1,2;
+        -fx-background-radius: 3,2,1;
+}
+
+.toggle-button:hover:pressed{
+
+    -fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgb(80,80,80),
+            linear-gradient(#757575, #757575),
+            linear-gradient(#5e5b57 0%, #424242 25%, #424242 40%, #60666b 100%);
+        -fx-background-insets: 0,1,2;
+        -fx-background-radius: 3,2,1;
+}
+
+.toggle-button:hover {
+-fx-background-color: rgb(100,100,100),
+    linear-gradient(#b5b5b5, #757575),
+    linear-gradient(#7a7671 0%, #5c5c5c 30%, #424242 40%, #60666b 100%);
+}
+
+
+
+.hyperlink {
+    -fx-text-fill: rgb(220,220,220);
+}
+.hyperlink:hover {
+    -fx-text-fill: #42aaff;
+}
+
+.button {
+    -fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgb(80,80,80),
+            linear-gradient(#757575, #757575),
+            linear-gradient(#7a7671 0%, #5c5c5c 25%, #424242 40%, #60666b 100%);
+        -fx-background-insets: 0,1,2;
+        -fx-background-radius: 3,2,1;
+}
+
+.button:hover {
+    -fx-background-color: rgb(100,100,100),
+    linear-gradient(#b5b5b5, #757575),
+    linear-gradient(#7a7671 0%, #5c5c5c 30%, #424242 40%, #60666b 100%);
+}
+
+.text-field {
+-fx-text-fill: rgb(220,220,220);
+    -fx-background-color: rgb(80,80,80),
+            linear-gradient(#424242, #424242);
+        -fx-background-insets: 0,1,2;
+        -fx-background-radius: 3,2,1;
+}

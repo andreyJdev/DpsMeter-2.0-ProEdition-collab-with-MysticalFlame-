@@ -1,0 +1,66 @@
+
+.root {
+    -fx-base: #4d4d4d;
+    -fx-background: derive(-fx-base,-55%);
+    -fx-accent: #949494;
+    -fx-default-button: #7f878f ;
+    -fx-focus-color: #636363;
+    -fx-faint-focus-color: #efefef22;
+    -fx-light-text-color: rgb(230,230,230);
+    -fx-focused-text-base-color : ladder(
+            -fx-selection-bar,
+            -fx-light-text-color 60%,
+            -fx-dark-text-color 61%,
+            -fx-dark-text-color 74%,
+            -fx-mid-text-color 75%
+        );
+    -fx-focused-mark-color : -fx-focused-text-base-color ;
+
+}
+
+.text-input:focused {
+    -fx-highlight-text-fill: ladder(
+        -fx-highlight-fill,
+        -fx-light-text-color 45%,
+        -fx-dark-text-color  46%,
+        -fx-dark-text-color  59%,
+        -fx-mid-text-color   60%
+    );
+}
+
+.list-view .list-cell:even {
+-fx-background-color: rgb(80,80,80);
+-fx-text-fill: black;
+}
+.list-view .list-cell:odd {
+-fx-background-color: rgb(60,60,60);
+-fx-text-fill: black;
+}
+
+.list-view .list-cell:odd {
+-fx-text-fill: rgb(220,220,220);
+}
+
+.list-view {
+-fx-background-color: rgb(80,80,80);
+}
+
+.list-view .list-cell:even {
+-fx-text-fill: rgb(220,220,220);
+}
+
+.list-view .scroll-bar {
+-fx-background-color: rgb(70,70,70),
+                linear-gradient(#757575, #757575);
+}
+
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color: rgb(80,80,80);
+
+}
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-background-color: rgb(100,100,100);
+}
+.combo-box .cell{
+-fx-text-fill: rgb(220,220,220);
+}

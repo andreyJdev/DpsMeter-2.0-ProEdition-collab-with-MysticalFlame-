@@ -1,0 +1,12 @@
+.root {
+     -fx-background-color: rgba(138,102,66,0.2);
+
+}
+
+.hyperlink {
+-fx-text-fill: #0000ff
+}
+.hyperlink:hover {
+    -fx-text-fill: #b50f04;
+}
+
